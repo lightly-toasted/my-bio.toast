@@ -18,7 +18,7 @@ Have fun customizing it to your liking!
 - `github`
     - `username`: Your GitHub username, leave it empty if you want to display your account.
 - `discord`: This uses [Lanyard](https://github.com/Phineas/lanyard), join their [Discord server](https://discord.gg/lanyard) to use this.
-    - `username`: Your Discord username.
+    - `id`: Your [Discord user ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID). 
     - `lanyard-api-base-url`: Base URL of Lanyard API. Leave it empty to use default (`https://api.lanyard.rest/v1`)
     - `statuses`
         - `online`: Text to display when you are online. Leave it empty to use default (Online)

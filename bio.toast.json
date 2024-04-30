@@ -5,7 +5,7 @@
       "username": ""
     },
     "discord": {
-      "username": "toastlua",
+      "id": "0",
       "lanyard-api-base-url": "https://api.lanyard.rest/v1",
       "statuses": {
         "online": "Online",
