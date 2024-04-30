@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "description": "",
+    "github": {
+      "username": ""
+    },
+    "discord": {
+      "username": "toastlua",
+      "lanyard-api-base-url": "https://api.lanyard.rest/v1",
+      "statuses": {
+        "online": "Online",
+        "offline": "Offline",
+        "idle": "Idle",
+        "dnd": "Do Not Disturb"
+      }
+    }
+  }
