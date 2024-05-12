@@ -5,16 +5,16 @@
       "username": ""
     },
     "discord": {
-      "id": "000000000000000000",
+      "id": "1167437052766322770",
       "lanyard-api-base-url": "https://api.lanyard.rest/v1"
     },
     "social": {
-      "youtube": "",
-      "twitter": "",
-      "facebook": "",
-      "twitch": "",
-      "buymeacoffee": "",
-      "spotify": "",
+      "youtube": "https://youtube.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://facebook.com/",
+      "twitch": "https://twitch.com/",
+      "buymeacoffee": "https://buymeacoffee.com/tooast",
+      "spotify": "https://spotify.com/",
       "email": "mailto:me@toast.name"
     }
   }
