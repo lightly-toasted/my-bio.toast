@@ -2,6 +2,8 @@
     "name": "",
     "description": "",
     "pronouns": "",
+    "themeColor": "#daa520",
+    "embedImage": "https://lightly-toasted.github.io/android-chrome-192x192.png",
     "github": {
       "username": ""
     },
@@ -17,6 +19,6 @@
       "twitch": "https://twitch.com/",
       "buymeacoffee": "https://buymeacoffee.com/tooast",
       "spotify": "https://spotify.com/",
-      "email": "mailto:me@toast.name"
+      "email": "mailto:bio@toast.name"
     }
   }
