@@ -1,6 +1,7 @@
 {
     "name": "",
     "description": "",
+    "pronouns": "",
     "github": {
       "username": ""
     },
@@ -9,6 +10,7 @@
       "lanyard-api-base-url": "https://api.lanyard.rest/v1"
     },
     "social": {
+      "website": "https://example.com/",
       "youtube": "https://youtube.com/",
       "twitter": "https://twitter.com/",
       "facebook": "https://facebook.com/",
