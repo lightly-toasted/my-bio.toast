@@ -5,13 +5,16 @@
       "username": ""
     },
     "discord": {
-      "id": "0",
-      "lanyard-api-base-url": "https://api.lanyard.rest/v1",
-      "statuses": {
-        "online": "Online",
-        "offline": "Offline",
-        "idle": "Idle",
-        "dnd": "Do Not Disturb"
-      }
+      "id": "",
+      "lanyard-api-base-url": "https://api.lanyard.rest/v1"
+    },
+    "social": {
+      "youtube": "",
+      "twitter": "",
+      "facebook": "",
+      "twitch": "",
+      "buymeacoffee": "",
+      "spotify": "",
+      "email": "mailto:me@toast.name"
     }
   }
