@@ -1,9 +1,9 @@
 # my-bio.toast
-This is where you can design your [bio.toast](https://github.com/lightly-toasted/bio.toast) bio.
+This is where you can design your [bio.toast](https://github.com/bio-toast/bio.toast) bio.
 Have fun customizing it to your liking!
 
 ## Getting Started
-1. [Fork](https://github.com/lightly-toasted/bio.toast/fork) this, and set the repository name to `my-bio.toast`.
+1. [Fork](https://github.com/bio-toast/bio.toast/fork) this, and set the repository name to `my-bio.toast`.
 2. Edit the files to customize your bio.
 3. Commit changes to your GitHub repository and visit your bio.
 
@@ -11,7 +11,7 @@ Have fun customizing it to your liking!
 - Your repository name is not exactly `my-bio.toast`. All letters are case-sensitive and lowercase.
 - Try waiting up to a hour.
 - [Clear](https://support.google.com/accounts/answer/32050) your browser's cache.
-- [Open an issue](https://github.com/lightly-toasted/bio.toast/issues/new) for help.
+- [Open an issue](https://github.com/bio-toast/bio.toast/issues/new) for help.
 
 ## Configure bio.toast.json
 - `name`: Your name, leave it empty if you want to use your GitHub name.
