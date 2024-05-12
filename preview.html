@@ -9,7 +9,7 @@
     <h1>bio.toast - Bio for Developers</h1>
     <p>You can preview how your <code>styles.css</code> and <code>bio.toast.json</code> applies to your <a href="https://github.com/lightly-toasted/bio.toast">bio.toast</a> page.</p>
     <p>To refresh, use Back button (&#x2B05;) in your web browser or <button>Reload</button> button at the bottom of the preview page.</p>
-    <button id="start">Start</button>
+    <button disabled id="start">Start (not working atm)</button>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         function toBase64(str) {
@@ -19,8 +19,8 @@
             return base64;
         }
         async function preview() {
-            const styles = await fetch('styles.css')
-            const config = await fetch('bio.toast.json')
+            const styles = await fetch('/styles.css')
+            const config = await fetch('/bio.toast.json')
             const encodedStyles = toBase64(await styles.text())
             const encodedConfig = toBase64(await config.text())
             const username = (await config.json()).name || 'lightly-toasted'
