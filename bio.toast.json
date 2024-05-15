@@ -20,5 +20,18 @@
       "buymeacoffee": "https://buymeacoffee.com/tooast",
       "spotify": "https://spotify.com/",
       "email": "mailto:bio@toast.name"
-    }
+    },
+    "customWidgets": [
+      {
+        "id": "github-stats",
+        "type": "img",
+        "src": "https://myreadme.vercel.app/api/embed/YOURUSERNAME?panels=userstatistics,toprepositories,toplanguages,commitgraph",
+        "href": "https://github.com/lightly-toasted"
+      },
+      {
+        "id": "spotify-playlist",
+        "type": "iframe",
+        "src": "https://open.spotify.com/embed/playlist/4cRo44TavIHN54w46OqRVc?utm_source=generator"
+      }
+    ]
   }
