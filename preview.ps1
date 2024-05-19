@@ -1,4 +1,4 @@
-$fileNames = @("bio.toast.json", "styles.css")
+$fileNames = @("styles.css", "bio.toast.json")
 $encodedFiles = @()
 
 foreach ($fileName in $fileNames) {
@@ -8,7 +8,7 @@ foreach ($fileName in $fileNames) {
     $encodedFiles += "$(Get-Content $encodedFileName)"
 }
 
-$previewUrl = "https://localhost:5173/lightly-toasted?preview=$($encodedFiles -join '|')"
+$previewUrl = "https://bio.toast.name/github?preview=$($encodedFiles -join '|')"
 Start-Process $previewUrl
 
 foreach ($fileName in $fileNames) {

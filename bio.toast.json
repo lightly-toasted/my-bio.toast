@@ -26,12 +26,7 @@
         "id": "github-stats",
         "type": "img",
         "alt": "GitHub",
-        "src": "https://myreadme.vercel.app/api/embed/lightly-toasted?panels=userstatistics,toprepositories,toplanguages,commitgraph"
-      },
-      {
-        "id": "spotify-playlist",
-        "type": "iframe",
-        "src": "https://open.spotify.com/embed/playlist/4cRo44TavIHN54w46OqRVc?utm_source=generator"
+        "src": "https://myreadme.vercel.app/api/embed/lightly-toasted?panels=userstatistics,commitgraph"
       }
     ]
   }

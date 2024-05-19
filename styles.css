@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/v4-font-face.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
 
 * {
@@ -6,10 +6,20 @@
 }
 
 body, html { background: lightblue }
+h1, h2, h3, h4 { color: white }
+p { color: ghostwhite }
 #container {
     padding: 1em;
     background: slategray;
     border-radius: 1em;
+}
+
+a:active {
+    color: lightpink
+}
+
+a:visited {
+    color: thistle
 }
 
 #github, #discord {
@@ -20,14 +30,30 @@ body, html { background: lightblue }
     display: none
 }
 
-#name, #github-username, #discord-display, #discord-username {
-  margin: 0; /* Remove default margin */
+#github-username, #discord-username { color: gainsboro }
+
+#discord-profile-image {
+    border-radius: 1em;
 }
 
-#discord-status[data-status="online"] {
-    color: palegreen;
+#discord-link:before {
+    font-family: FontAwesome;
+    font-size: 24px;
+    content: "\f0c1";
+}
+
+#name, #github-username, #discord-display, #discord-username {
+  margin: 0;
+}
+
+#discord-status { 
     font-size: 20px;
 }
+
+#discord-status[data-status="online"] { color: palegreen }
+#discord-status[data-status="dnd"] { color: lightpink }
+#discord-status[data-status="idle"] { color: lemonchiffon }
+#discord-status[data-status="offline"] { color: gainsboro }
 
 #github-profile-image {
     background: floralwhite;
@@ -43,6 +69,54 @@ body, html { background: lightblue }
 
 #social-links {
     display: flex;
+    list-style-type: none;
+}
+
+#social-link {
+    font-size: 0;
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+
+#social-link:before {
+    font-family: FontAwesome;
+    font-size: 36px;
+}
+
+#social-link[data-app="github"]:before { content: "\f09b" }
+#social-link[data-app="website"]:before { content: "\f0ac" }
+#social-link[data-app="youtube"]:before { content: "\f167" }
+#social-link[data-app="twitter"]:before { content: "\e61b" }
+#social-link[data-app="facebook"]:before { content: "\f09a" }
+#social-link[data-app="buymeacoffee"]:before { content: "\f4b9" }
+#social-link[data-app="twitch"]:before { content: "\f1e8" }
+#social-link[data-app="spotify"]:before { content: "\f1bc" }
+#social-link[data-app="email"]:before { content: "\40" }
+#social-link[data-app="instagram"]:before { content: "\f16d" }
+#social-link[data-app="tiktok"]:before { content: "\e07b" }
+#social-link[data-app="discord"]:before { content: "\f392" }
+#social-link[data-app="pinterest"]:before { content: "\f0d2" }
+#social-link[data-app="stackoverflow"]:before { content: "\f16c" }
+#social-link[data-app="reddit"]:before { content: "\f1a1" }
+#social-link[data-app="steam"]:before { content: "\f1b6" }
+#social-link[data-app="threads"]:before { content: "\e618" }
+#social-link[data-app="npm"]:before { content: "\f3d4" }
+#social-link[data-app="bilibili"]:before { content: "\e3d9" }
+#social-link[data-app="bitcoin"]:before { content: "\f379" }
+#social-link[data-app="ethereum"]:before { content: "\f42e" }
+#social-link[data-app="googleplay"]:before { content: "\f3ab" }
+
+#repos-list {
+    list-style-type: none;
+    max-height: 256px;
+    overflow-y: auto;
+}
+
+#repo {
+    color: white;
+    text-decoration: none;
+    
 }
 
 #repos-count {
@@ -56,10 +130,5 @@ body, html { background: lightblue }
     border-radius: 5em;
     font-size: 15px;
     font-weight: 400;
-    margin-left: 5px;
-}
-
-#social-links * {
-    list-style-type: none;
     margin-left: 5px;
 }
