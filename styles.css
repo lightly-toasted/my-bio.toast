@@ -36,14 +36,13 @@ a:visited {
     border-radius: 1em;
 }
 
-#discord-link:before {
-    font-family: FontAwesome;
-    font-size: 24px;
-    content: "\f0c1";
-}
-
-#name, #github-username, #discord-display, #discord-username {
-  margin: 0;
+@keyframes popStatusCircle {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 20px;
+    }
 }
 
 #discord-status { 
@@ -54,6 +53,30 @@ a:visited {
 #discord-status[data-status="dnd"] { color: lightpink }
 #discord-status[data-status="idle"] { color: lemonchiffon }
 #discord-status[data-status="offline"] { color: gainsboro }
+
+#discord-status:before { 
+    content: "\25cf";
+    margin-right: 4px;
+    font-size: 0;
+    animation: popStatusCircle .5s forwards
+}
+
+#discord-link {
+    font-size: 0;
+    color: white;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+#discord-link:before {
+    font-family: FontAwesome;
+    font-size: 24px;
+    content: "\f392";
+}
+
+#name, #github-username, #discord-display, #discord-username {
+  margin: 0;
+}
 
 #github-profile-image {
     background: floralwhite;
@@ -131,4 +154,12 @@ a:visited {
     font-size: 15px;
     font-weight: 400;
     margin-left: 5px;
+}
+
+#social-link:before, #discord-link:before, #repo {
+    transition: text-shadow .2s ease-in-out
+}
+
+#social-link:hover:before, #discord-link:hover:before, #repo:hover {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }

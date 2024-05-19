@@ -8,7 +8,7 @@ foreach ($fileName in $fileNames) {
     $encodedFiles += "$(Get-Content $encodedFileName)"
 }
 
-$previewUrl = "https://bio.toast.name/github?preview=$($encodedFiles -join '|')"
+$previewUrl = "https://bio.toast.name/lightly-toasted?preview=$($encodedFiles -join '|')"
 Start-Process $previewUrl
 
 foreach ($fileName in $fileNames) {
